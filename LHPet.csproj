@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".vscode\settings.json" />
+    <Content Include="Models\Fornecedor.cs" />
+    <Content Include="Controllers\HomeController.cs" />
+    </ItemGroup>
+</Project>
